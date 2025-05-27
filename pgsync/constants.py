@@ -178,7 +178,10 @@ TRANSFORM_TYPES = [
 # default postgres schema
 DEFAULT_SCHEMA = "public"
 
-BUILTIN_SCHEMAS = ["information_schema"]
+BUILTIN_SCHEMAS = [
+    "information_schema",
+    "aiven_extras",
+]
 
 # Primary key identifier
 META = "_meta"
